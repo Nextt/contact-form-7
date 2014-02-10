@@ -2,15 +2,9 @@
 Contributors: takayukister
 Donate link: http://contactform7.com/donate/
 Tags: contact, form, contact form, feedback, email, ajax, captcha, akismet, multilingual
-<<<<<<< HEAD
-Requires at least: 3.5
-Tested up to: 3.6.1
-Stable tag: 3.5.3
-=======
 Requires at least: 3.6
 Tested up to: 3.8.1
 Stable tag: 3.7
->>>>>>> 024dc7f66cdb347271adf7cac115b3578f3538eb
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -128,44 +122,6 @@ Do you have questions or issues with Contact Form 7? Use these support channels 
 
 == Changelog ==
 
-<<<<<<< HEAD
-= 3.5.3 =
-
-* Checking of file extension when uploading has been enhanced.
-* The jQuery Form Plugin (jquery.form.js) has been updated to 3.44.0.
-* Translation for Central Kurdish (ckb) has been created.
-* Translations for German, Hungarian and Japanese have been updated.
-
-= 3.5.2 =
-
-* Fixed: Strip newlines to prevent mail header injection.
-* The jQuery Form Plugin (jquery.form.js) has been updated to 3.40.0.
-* Translations for Spanish and Dutch have been updated.
-
-= 3.5.1 =
-
-* Fixed: Submissions with array value cause PHP error.
-* Translation for Indian Bengali (bn_IN) has been created.
-* Translations for Spanish, Tagalog and Japanese have been updated.
-
-= 3.5 =
-
-* Added: Support of local file attachment.
-* Added: first_as_label option to drop-down menu (select) tag.
-* Added: Support of jQuery UI fallback for non-HTML5 browsers.
-* Show error message from jquery.form.js in a hidden element.
-* Make ajax-loader image have https URL when the page is https.
-* Use win_is_writable() to avoid file system issues on Windows server.
-* Save locale information when generating a contact form.
-* The jQuery Form Plugin (jquery.form.js) has been updated to 3.39.0.
-* Translations for Finnish, German and Turkish have been updated.
-
-== Upgrade Notice ==
-
-= 3.5.2 =
-
-This version fixes a security related bug. Upgrade immediately.
-=======
 = 3.7 =
 
 * Support free_text option that allows checkbox/radio to have an additional free text field.
@@ -191,4 +147,3 @@ This version fixes a security related bug. Upgrade immediately.
 * New: wpcf7_flamingo_submit_if and wpcf7_flamingo_get_value filter hooks.
 * The jQuery Form Plugin (jquery.form.js) has been updated to 3.46.0.
 * Translations for Brazilian Portuguese and French have been updated.
->>>>>>> 024dc7f66cdb347271adf7cac115b3578f3538eb

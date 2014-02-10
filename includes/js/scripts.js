@@ -33,12 +33,8 @@
 			}
 		});
 
-<<<<<<< HEAD
-			_wpcf7.supportHtml5 = $.wpcf7SupportHtml5();
-=======
 		if (_wpcf7.cached)
 			this.wpcf7OnloadRefill();
->>>>>>> 024dc7f66cdb347271adf7cac115b3578f3538eb
 
 		this.wpcf7ToggleSubmit();
 
@@ -110,63 +106,6 @@
 
 			$(data.into).trigger('spam.wpcf7');
 
-<<<<<<< HEAD
-					$(data.into).wpcf7FillResponseOutput(data.message);
-				},
-				error: function(xhr, status, error, $form) {
-					var e = $('<div class="ajax-error"></div>').text(error.message);
-					$form.after(e);
-				}
-			});
-
-			$('div.wpcf7 > form').wpcf7InitForm();
-
-		} catch (e) {
-		}
-	});
-
-	$.fn.wpcf7InitForm = function() {
-		return this.each(function(i, n) {
-			var $f = $(n);
-
-			if (_wpcf7.cached)
-				$f.wpcf7OnloadRefill();
-
-			$f.wpcf7ToggleSubmit();
-
-			$f.find('.wpcf7-submit').wpcf7AjaxLoader();
-
-			$f.find('.wpcf7-acceptance').click(function() {
-				$f.wpcf7ToggleSubmit();
-			});
-
-			$f.find('.wpcf7-exclusive-checkbox').wpcf7ExclusiveCheckbox();
-
-			$f.find('[placeholder]').wpcf7Placeholder();
-
-			if (_wpcf7.jqueryUi && ! _wpcf7.supportHtml5.date) {
-				$f.find('input.wpcf7-date[type="date"]').each(function() {
-					$(this).datepicker({
-						dateFormat: 'yy-mm-dd',
-						minDate: new Date($(this).attr('min')),
-						maxDate: new Date($(this).attr('max'))
-					});
-				});
-			}
-
-			if (_wpcf7.jqueryUi && ! _wpcf7.supportHtml5.number) {
-				$f.find('input.wpcf7-number[type="number"]').each(function() {
-					$(this).spinner({
-						min: $(this).attr('min'),
-						max: $(this).attr('max'),
-						step: $(this).attr('step')
-					});
-				});
-			}
-		});
-	};
-
-=======
 		} else if (1 == data.mailSent) {
 			$responseOutput.addClass('wpcf7-mail-sent-ok');
 			$form.addClass('sent');
@@ -199,7 +138,6 @@
 		$responseOutput.attr('role', 'alert');
 	}
 
->>>>>>> 024dc7f66cdb347271adf7cac115b3578f3538eb
 	$.fn.wpcf7ExclusiveCheckbox = function() {
 		return this.find('input:checkbox').click(function() {
 			$(this).closest('.wpcf7-checkbox').find('input:checkbox').not(this).removeAttr('checked');
@@ -366,22 +304,6 @@
 			$(this).find('span.wpcf7-not-valid-tip').remove();
 			$(this).find('img.ajax-loader').css({ visibility: 'hidden' });
 		});
-	};
-
-	$.wpcf7SupportHtml5 = function() {
-		var features = {};
-		var input = document.createElement('input');
-
-		features.placeholder = 'placeholder' in input;
-
-		var inputTypes = ['email', 'url', 'tel', 'number', 'range', 'date'];
-
-		$.each(inputTypes, function(index, value) {
-			input.setAttribute('type', value);
-			features[value] = input.type !== 'text';
-		});
-
-		return features;
 	};
 
 	$.wpcf7SupportHtml5 = function() {

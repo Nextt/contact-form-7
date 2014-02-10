@@ -2,13 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Contact Form 7\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD:languages/wpcf7.pot
-"POT-Creation-Date: 2013-09-20 18:33+0900\n"
-"PO-Revision-Date: 2013-09-20 18:34+0900\n"
-=======
 "POT-Creation-Date: 2014-02-04 04:26+0900\n"
 "PO-Revision-Date: 2014-02-04 04:26+0900\n"
->>>>>>> 024dc7f66cdb347271adf7cac115b3578f3538eb:languages/contact-form-7.pot
 "Last-Translator: Takayuki Miyoshi <takayukister@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -30,13 +25,7 @@ msgstr ""
 msgid "Contact form %d"
 msgstr ""
 
-<<<<<<< HEAD:languages/wpcf7.pot
-#: contact-form-7/admin/admin.php:8 contact-form-7/admin/admin.php:259
-#: contact-form-7/admin/edit-contact-form.php:12
-#: contact-form-7/modules/flamingo.php:14
-=======
 #: contact-form-7/admin/admin.php:15 contact-form-7/modules/flamingo.php:123
->>>>>>> 024dc7f66cdb347271adf7cac115b3578f3538eb:languages/contact-form-7.pot
 msgid "Contact Form 7"
 msgstr ""
 
@@ -54,35 +43,6 @@ msgstr ""
 msgid "Contact Forms"
 msgstr ""
 
-<<<<<<< HEAD:languages/wpcf7.pot
-#: contact-form-7/admin/admin.php:41 contact-form-7/admin/admin.php:114
-msgid "You are not allowed to edit this item."
-msgstr ""
-
-#: contact-form-7/admin/admin.php:155
-msgid "You are not allowed to delete this item."
-msgstr ""
-
-#: contact-form-7/admin/admin.php:158
-msgid "Error in deleting."
-msgstr ""
-
-#: contact-form-7/admin/admin.php:197 contact-form-7/includes/classes.php:27
-msgid "Contact Forms"
-msgstr ""
-
-#: contact-form-7/admin/admin.php:234
-msgid "Generate Tag"
-msgstr ""
-
-#: contact-form-7/admin/admin.php:261 contact-form-7/admin/admin.php:293
-#: contact-form-7/admin/admin.php:306
-#: contact-form-7/admin/edit-contact-form.php:15
-msgid "Add New"
-msgstr ""
-
-#: contact-form-7/admin/admin.php:265
-=======
 #: contact-form-7/admin/admin.php:29 contact-form-7/admin/admin.php:318
 #: contact-form-7/admin/edit-contact-form.php:13
 msgid "Add New Contact Form"
@@ -111,119 +71,19 @@ msgid "Generate Tag"
 msgstr ""
 
 #: contact-form-7/admin/admin.php:281
->>>>>>> 024dc7f66cdb347271adf7cac115b3578f3538eb:languages/contact-form-7.pot
 #, php-format
 msgid "Search results for &#8220;%s&#8221;"
 msgstr ""
 
-<<<<<<< HEAD:languages/wpcf7.pot
-#: contact-form-7/admin/admin.php:274
-msgid "Search Contact Forms"
-msgstr ""
-
-#: contact-form-7/admin/admin.php:292
-=======
 #: contact-form-7/admin/admin.php:290
 msgid "Search Contact Forms"
 msgstr ""
 
 #: contact-form-7/admin/admin.php:322
->>>>>>> 024dc7f66cdb347271adf7cac115b3578f3538eb:languages/contact-form-7.pot
 #, php-format
 msgid "Use the default language (%s)"
 msgstr ""
 
-<<<<<<< HEAD:languages/wpcf7.pot
-#: contact-form-7/admin/admin.php:296
-msgid "Or"
-msgstr ""
-
-#: contact-form-7/admin/admin.php:301
-msgid "(select language)"
-msgstr ""
-
-#: contact-form-7/admin/admin.php:313
-msgid "Form"
-msgstr ""
-
-#: contact-form-7/admin/admin.php:316
-msgid "Mail"
-msgstr ""
-
-#: contact-form-7/admin/admin.php:319
-msgid "Mail (2)"
-msgstr ""
-
-#: contact-form-7/admin/admin.php:324
-msgid "Use mail (2)"
-msgstr ""
-
-#: contact-form-7/admin/admin.php:326
-msgid "Messages"
-msgstr ""
-
-#: contact-form-7/admin/admin.php:329
-msgid "Additional Settings"
-msgstr ""
-
-#: contact-form-7/admin/admin.php:360
-msgid "Contact form created."
-msgstr ""
-
-#: contact-form-7/admin/admin.php:362
-msgid "Contact form saved."
-msgstr ""
-
-#: contact-form-7/admin/admin.php:364
-msgid "Contact form deleted."
-msgstr ""
-
-#: contact-form-7/admin/admin.php:381
-msgid "Settings"
-msgstr ""
-
-#: contact-form-7/admin/admin.php:392
-msgid "http://contactform7.com/docs/"
-msgstr ""
-
-#: contact-form-7/admin/admin.php:393
-msgid "Docs"
-msgstr ""
-
-#: contact-form-7/admin/admin.php:394
-msgid "http://contactform7.com/faq/"
-msgstr ""
-
-#: contact-form-7/admin/admin.php:395
-msgid "FAQ"
-msgstr ""
-
-#: contact-form-7/admin/admin.php:396
-msgid "http://contactform7.com/support/"
-msgstr ""
-
-#: contact-form-7/admin/admin.php:397
-msgid "Support"
-msgstr ""
-
-#: contact-form-7/admin/admin.php:428
-msgid "Contact Form 7 needs your support. Please donate today."
-msgstr ""
-
-#: contact-form-7/admin/admin.php:429
-msgid "Your contribution is needed for making this plugin better."
-msgstr ""
-
-#: contact-form-7/admin/admin.php:435
-msgid "http://contactform7.com/donate/"
-msgstr ""
-
-#: contact-form-7/admin/admin.php:435
-msgid "Donate"
-msgstr ""
-
-#: contact-form-7/admin/admin.php:455
-=======
 #: contact-form-7/admin/admin.php:326
 msgid "Or"
 msgstr ""
@@ -305,16 +165,12 @@ msgid "Donate"
 msgstr ""
 
 #: contact-form-7/admin/admin.php:434
->>>>>>> 024dc7f66cdb347271adf7cac115b3578f3538eb:languages/contact-form-7.pot
 #, php-format
 msgid ""
 "<strong>Contact Form 7 %1$s requires WordPress %2$s or higher.</strong> "
 "Please <a href=\"%3$s\">update WordPress</a> first."
 msgstr ""
 
-<<<<<<< HEAD:languages/wpcf7.pot
-#: contact-form-7/admin/edit-contact-form.php:47
-=======
 #: contact-form-7/admin/admin.php:459
 msgid "Dismiss"
 msgstr ""
@@ -404,26 +260,10 @@ msgid "Tracking with Google Analytics"
 msgstr ""
 
 #: contact-form-7/admin/edit-contact-form.php:49
->>>>>>> 024dc7f66cdb347271adf7cac115b3578f3538eb:languages/contact-form-7.pot
 msgid ""
 "Copy this code and paste it into your post, page or text widget content."
 msgstr ""
 
-<<<<<<< HEAD:languages/wpcf7.pot
-#: contact-form-7/admin/edit-contact-form.php:53
-msgid "Old code is also available."
-msgstr ""
-
-#: contact-form-7/admin/edit-contact-form.php:61
-msgid "Save"
-msgstr ""
-
-#: contact-form-7/admin/edit-contact-form.php:68
-msgid "Duplicate"
-msgstr ""
-
-#: contact-form-7/admin/edit-contact-form.php:73
-=======
 #: contact-form-7/admin/edit-contact-form.php:55
 msgid "Old code is also available."
 msgstr ""
@@ -437,16 +277,11 @@ msgid "Duplicate"
 msgstr ""
 
 #: contact-form-7/admin/edit-contact-form.php:75
->>>>>>> 024dc7f66cdb347271adf7cac115b3578f3538eb:languages/contact-form-7.pot
 #: contact-form-7/admin/includes/class-contact-forms-list-table.php:83
 msgid "Delete"
 msgstr ""
 
-<<<<<<< HEAD:languages/wpcf7.pot
-#: contact-form-7/admin/edit-contact-form.php:75
-=======
 #: contact-form-7/admin/edit-contact-form.php:77
->>>>>>> 024dc7f66cdb347271adf7cac115b3578f3538eb:languages/contact-form-7.pot
 msgid ""
 "You are about to delete this contact form.\n"
 "  'Cancel' to stop, 'OK' to delete."
@@ -469,13 +304,10 @@ msgstr ""
 msgid "Date"
 msgstr ""
 
-<<<<<<< HEAD:languages/wpcf7.pot
-=======
 #: contact-form-7/admin/includes/class-contact-forms-list-table.php:104
 msgid "Edit"
 msgstr ""
 
->>>>>>> 024dc7f66cdb347271adf7cac115b3578f3538eb:languages/contact-form-7.pot
 #: contact-form-7/admin/includes/class-contact-forms-list-table.php:112
 msgid "Copy"
 msgstr ""
@@ -530,11 +362,7 @@ msgstr ""
 msgid "Contact Form"
 msgstr ""
 
-<<<<<<< HEAD:languages/wpcf7.pot
-#: contact-form-7/includes/classes.php:832
-=======
 #: contact-form-7/includes/classes.php:148
->>>>>>> 024dc7f66cdb347271adf7cac115b3578f3538eb:languages/contact-form-7.pot
 msgid "Untitled"
 msgstr ""
 
@@ -651,253 +479,6 @@ msgstr ""
 msgid "This e-mail was sent from a contact form on %1$s (%2$s)"
 msgstr ""
 
-<<<<<<< HEAD:languages/wpcf7.pot
-#: contact-form-7/includes/functions.php:164
-msgid "Afrikaans"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:165
-msgid "Albanian"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:166
-msgid "Arabic"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:167
-msgid "Armenian"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:168
-msgid "Azerbaijani"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:169
-msgid "Bangla"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:170
-msgid "Basque"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:171
-msgid "Belarusian"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:172
-msgid "Bosnian"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:173
-msgid "Brazilian Portuguese"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:174
-msgid "Bulgarian"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:175
-msgid "Catalan"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:176
-msgid "Central Kurdish"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:177
-msgid "Chinese (Simplified)"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:178
-msgid "Chinese (Traditional)"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:179
-msgid "Croatian"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:180
-msgid "Czech"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:181
-msgid "Danish"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:182
-msgid "Dutch"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:183
-msgid "English"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:184
-msgid "Esperanto"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:185
-msgid "Estonian"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:186
-msgid "Finnish"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:187
-msgid "French"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:188
-msgid "Galician"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:189
-msgid "Gujarati"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:190
-msgid "Georgian"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:191
-msgid "German"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:192
-msgid "Greek"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:193
-msgid "Hebrew"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:194
-msgid "Hindi"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:195
-msgid "Hungarian"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:196
-msgid "Indian Bengali"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:197
-msgid "Indonesian"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:198
-msgid "Irish"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:199
-msgid "Italian"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:200
-msgid "Japanese"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:201
-msgid "Korean"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:202
-msgid "Latvian"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:203
-msgid "Lithuanian"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:204
-msgid "Macedonian"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:205
-msgid "Malay"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:206
-msgid "Malayalam"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:207
-msgid "Maltese"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:208
-msgid "Norwegian"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:209
-msgid "Persian"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:210
-msgid "Polish"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:211
-msgid "Portuguese"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:212
-msgid "Russian"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:213
-msgid "Romanian"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:214
-msgid "Serbian"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:215
-msgid "Sinhala"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:216
-msgid "Slovak"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:217
-msgid "Slovene"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:218
-msgid "Spanish"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:219
-msgid "Swedish"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:220
-msgid "Tamil"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:221
-msgid "Thai"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:222
-msgid "Tagalog"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:223
-msgid "Turkish"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:224
-msgid "Ukrainian"
-msgstr ""
-
-#: contact-form-7/includes/functions.php:225
-=======
 #: contact-form-7/includes/functions.php:155
 msgid "Afrikaans"
 msgstr ""
@@ -1147,7 +728,6 @@ msgid "Ukrainian"
 msgstr ""
 
 #: contact-form-7/includes/functions.php:217
->>>>>>> 024dc7f66cdb347271adf7cac115b3578f3538eb:languages/contact-form-7.pot
 msgid "Vietnamese"
 msgstr ""
 
@@ -1155,41 +735,6 @@ msgstr ""
 msgid "Acceptance"
 msgstr ""
 
-<<<<<<< HEAD:languages/wpcf7.pot
-#: contact-form-7/modules/acceptance.php:147
-#: contact-form-7/modules/captcha.php:204
-#: contact-form-7/modules/checkbox.php:182 contact-form-7/modules/date.php:159
-#: contact-form-7/modules/file.php:238 contact-form-7/modules/number.php:169
-#: contact-form-7/modules/quiz.php:163 contact-form-7/modules/select.php:150
-#: contact-form-7/modules/text.php:228 contact-form-7/modules/textarea.php:110
-msgid "Name"
-msgstr ""
-
-#: contact-form-7/modules/acceptance.php:152
-#: contact-form-7/modules/acceptance.php:155
-#: contact-form-7/modules/captcha.php:211
-#: contact-form-7/modules/captcha.php:214
-#: contact-form-7/modules/captcha.php:219
-#: contact-form-7/modules/captcha.php:222
-#: contact-form-7/modules/captcha.php:226
-#: contact-form-7/modules/captcha.php:237
-#: contact-form-7/modules/captcha.php:240
-#: contact-form-7/modules/captcha.php:245
-#: contact-form-7/modules/captcha.php:248
-#: contact-form-7/modules/checkbox.php:187
-#: contact-form-7/modules/checkbox.php:190 contact-form-7/modules/date.php:164
-#: contact-form-7/modules/date.php:167 contact-form-7/modules/date.php:172
-#: contact-form-7/modules/date.php:175 contact-form-7/modules/date.php:180
-#: contact-form-7/modules/date.php:185 contact-form-7/modules/file.php:243
-#: contact-form-7/modules/file.php:246 contact-form-7/modules/file.php:251
-#: contact-form-7/modules/file.php:254 contact-form-7/modules/number.php:174
-#: contact-form-7/modules/number.php:177 contact-form-7/modules/number.php:182
-#: contact-form-7/modules/number.php:185 contact-form-7/modules/number.php:190
-#: contact-form-7/modules/number.php:195 contact-form-7/modules/quiz.php:168
-#: contact-form-7/modules/quiz.php:171 contact-form-7/modules/quiz.php:176
-#: contact-form-7/modules/quiz.php:179 contact-form-7/modules/select.php:155
-#: contact-form-7/modules/select.php:158 contact-form-7/modules/submit.php:59
-=======
 #: contact-form-7/modules/acceptance.php:142
 #: contact-form-7/modules/captcha.php:206
 #: contact-form-7/modules/checkbox.php:270 contact-form-7/modules/date.php:161
@@ -1223,7 +768,6 @@ msgstr ""
 #: contact-form-7/modules/quiz.php:174 contact-form-7/modules/quiz.php:179
 #: contact-form-7/modules/quiz.php:182 contact-form-7/modules/select.php:157
 #: contact-form-7/modules/select.php:160 contact-form-7/modules/submit.php:59
->>>>>>> 024dc7f66cdb347271adf7cac115b3578f3538eb:languages/contact-form-7.pot
 #: contact-form-7/modules/submit.php:62 contact-form-7/modules/submit.php:67
 #: contact-form-7/modules/text.php:219 contact-form-7/modules/text.php:222
 #: contact-form-7/modules/text.php:227 contact-form-7/modules/text.php:230
@@ -1249,15 +793,6 @@ msgstr ""
 msgid "* That means visitor who accepts the term unchecks it."
 msgstr ""
 
-<<<<<<< HEAD:languages/wpcf7.pot
-#: contact-form-7/modules/acceptance.php:168
-#: contact-form-7/modules/captcha.php:253
-#: contact-form-7/modules/checkbox.php:210 contact-form-7/modules/date.php:193
-#: contact-form-7/modules/file.php:259 contact-form-7/modules/number.php:203
-#: contact-form-7/modules/quiz.php:191 contact-form-7/modules/select.php:175
-#: contact-form-7/modules/submit.php:74 contact-form-7/modules/text.php:271
-#: contact-form-7/modules/textarea.php:144
-=======
 #: contact-form-7/modules/acceptance.php:163
 #: contact-form-7/modules/captcha.php:255
 #: contact-form-7/modules/checkbox.php:298 contact-form-7/modules/date.php:195
@@ -1265,7 +800,6 @@ msgstr ""
 #: contact-form-7/modules/quiz.php:194 contact-form-7/modules/select.php:177
 #: contact-form-7/modules/submit.php:74 contact-form-7/modules/text.php:257
 #: contact-form-7/modules/textarea.php:146
->>>>>>> 024dc7f66cdb347271adf7cac115b3578f3538eb:languages/contact-form-7.pot
 msgid "Copy this code and paste it into the form left."
 msgstr ""
 
@@ -1353,22 +887,6 @@ msgstr ""
 msgid "Radio buttons"
 msgstr ""
 
-<<<<<<< HEAD:languages/wpcf7.pot
-#: contact-form-7/modules/checkbox.php:179 contact-form-7/modules/date.php:158
-#: contact-form-7/modules/file.php:237 contact-form-7/modules/number.php:168
-#: contact-form-7/modules/select.php:149 contact-form-7/modules/text.php:227
-#: contact-form-7/modules/textarea.php:109
-msgid "Required field?"
-msgstr ""
-
-#: contact-form-7/modules/checkbox.php:195
-#: contact-form-7/modules/select.php:163
-msgid "Choices"
-msgstr ""
-
-#: contact-form-7/modules/checkbox.php:197
-#: contact-form-7/modules/select.php:165
-=======
 #: contact-form-7/modules/checkbox.php:267 contact-form-7/modules/date.php:160
 #: contact-form-7/modules/file.php:235 contact-form-7/modules/number.php:170
 #: contact-form-7/modules/select.php:151 contact-form-7/modules/text.php:213
@@ -1383,7 +901,6 @@ msgstr ""
 
 #: contact-form-7/modules/checkbox.php:285
 #: contact-form-7/modules/select.php:167
->>>>>>> 024dc7f66cdb347271adf7cac115b3578f3538eb:languages/contact-form-7.pot
 msgid "* One choice per line."
 msgstr ""
 
@@ -1399,15 +916,9 @@ msgstr ""
 msgid "Make checkboxes exclusive?"
 msgstr ""
 
-<<<<<<< HEAD:languages/wpcf7.pot
-#: contact-form-7/modules/checkbox.php:212 contact-form-7/modules/date.php:195
-#: contact-form-7/modules/number.php:205 contact-form-7/modules/select.php:177
-#: contact-form-7/modules/text.php:273 contact-form-7/modules/textarea.php:146
-=======
 #: contact-form-7/modules/checkbox.php:300 contact-form-7/modules/date.php:197
 #: contact-form-7/modules/number.php:207 contact-form-7/modules/select.php:179
 #: contact-form-7/modules/text.php:259 contact-form-7/modules/textarea.php:148
->>>>>>> 024dc7f66cdb347271adf7cac115b3578f3538eb:languages/contact-form-7.pot
 msgid "And, put this code into the Mail fields below."
 msgstr ""
 
@@ -1564,17 +1075,6 @@ msgstr ""
 msgid "* quiz|answer (e.g. 1+1=?|2)"
 msgstr ""
 
-<<<<<<< HEAD:languages/wpcf7.pot
-#: contact-form-7/modules/select.php:140
-msgid "Drop-down menu"
-msgstr ""
-
-#: contact-form-7/modules/select.php:169
-msgid "Allow multiple selections?"
-msgstr ""
-
-#: contact-form-7/modules/select.php:170
-=======
 #: contact-form-7/modules/select.php:142
 msgid "Drop-down menu"
 msgstr ""
@@ -1584,7 +1084,6 @@ msgid "Allow multiple selections?"
 msgstr ""
 
 #: contact-form-7/modules/select.php:172
->>>>>>> 024dc7f66cdb347271adf7cac115b3578f3538eb:languages/contact-form-7.pot
 msgid "Insert a blank item as the first option?"
 msgstr ""
 

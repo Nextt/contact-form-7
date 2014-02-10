@@ -144,21 +144,6 @@ function wpcf7_upload_dir( $type = false ) {
 	return $uploads;
 }
 
-if ( ! function_exists( 'wp_is_writable' ) ) {
-/*
- * wp_is_writable exists in WordPress 3.6+
- * http://core.trac.wordpress.org/browser/tags/3.6/wp-includes/functions.php#L1437
- * We will be able to remove this function definition
- * after moving required WordPress version up to 3.6.
- */
-function wp_is_writable( $path ) {
-	if ( 'WIN' === strtoupper( substr( PHP_OS, 0, 3 ) ) )
-		return win_is_writable( $path );
-	else
-		return @is_writable( $path );
-}
-}
-
 function wpcf7_l10n() {
 	static $l10n = array();
 
@@ -167,70 +152,6 @@ function wpcf7_l10n() {
 	}
 
 	$l10n = array(
-<<<<<<< HEAD
-		'af' => __( 'Afrikaans', 'wpcf7' ),
-		'sq' => __( 'Albanian', 'wpcf7' ),
-		'ar' => __( 'Arabic', 'wpcf7' ),
-		'hy_AM' => __( 'Armenian', 'wpcf7' ),
-		'az_AZ' => __( 'Azerbaijani', 'wpcf7' ),
-		'bn_BD' => __( 'Bangla', 'wpcf7' ),
-		'eu' => __( 'Basque', 'wpcf7' ),
-		'be_BY' => __( 'Belarusian', 'wpcf7' ),
-		'bs' => __( 'Bosnian', 'wpcf7' ),
-		'pt_BR' => __( 'Brazilian Portuguese', 'wpcf7' ),
-		'bg_BG' => __( 'Bulgarian', 'wpcf7' ),
-		'ca' => __( 'Catalan', 'wpcf7' ),
-		'ckb' => __( 'Central Kurdish', 'wpcf7' ),
-		'zh_CN' => __( 'Chinese (Simplified)', 'wpcf7' ),
-		'zh_TW' => __( 'Chinese (Traditional)', 'wpcf7' ),
-		'hr' => __( 'Croatian', 'wpcf7' ),
-		'cs_CZ' => __( 'Czech', 'wpcf7' ),
-		'da_DK' => __( 'Danish', 'wpcf7' ),
-		'nl_NL' => __( 'Dutch', 'wpcf7' ),
-		'en_US' => __( 'English', 'wpcf7' ),
-		'eo_EO' => __( 'Esperanto', 'wpcf7' ),
-		'et' => __( 'Estonian', 'wpcf7' ),
-		'fi' => __( 'Finnish', 'wpcf7' ),
-		'fr_FR' => __( 'French', 'wpcf7' ),
-		'gl_ES' => __( 'Galician', 'wpcf7' ),
-		'gu_IN' => __( 'Gujarati', 'wpcf7' ),
-		'ka_GE' => __( 'Georgian', 'wpcf7' ),
-		'de_DE' => __( 'German', 'wpcf7' ),
-		'el' => __( 'Greek', 'wpcf7' ),
-		'he_IL' => __( 'Hebrew', 'wpcf7' ),
-		'hi_IN' => __( 'Hindi', 'wpcf7' ),
-		'hu_HU' => __( 'Hungarian', 'wpcf7' ),
-		'bn_IN' => __( 'Indian Bengali', 'wpcf7' ),
-		'id_ID' => __( 'Indonesian', 'wpcf7' ),
-		'ga_IE' => __( 'Irish', 'wpcf7' ),
-		'it_IT' => __( 'Italian', 'wpcf7' ),
-		'ja' => __( 'Japanese', 'wpcf7' ),
-		'ko_KR' => __( 'Korean', 'wpcf7' ),
-		'lv' => __( 'Latvian', 'wpcf7' ),
-		'lt_LT' => __( 'Lithuanian', 'wpcf7' ),
-		'mk_MK' => __( 'Macedonian', 'wpcf7' ),
-		'ms_MY' => __( 'Malay', 'wpcf7' ),
-		'ml_IN' => __( 'Malayalam', 'wpcf7' ),
-		'mt_MT' => __( 'Maltese', 'wpcf7' ),
-		'nb_NO' => __( 'Norwegian', 'wpcf7' ),
-		'fa_IR' => __( 'Persian', 'wpcf7' ),
-		'pl_PL' => __( 'Polish', 'wpcf7' ),
-		'pt_PT' => __( 'Portuguese', 'wpcf7' ),
-		'ru_RU' => __( 'Russian', 'wpcf7' ),
-		'ro_RO' => __( 'Romanian', 'wpcf7' ),
-		'sr_RS' => __( 'Serbian', 'wpcf7' ),
-		'si_LK' => __( 'Sinhala', 'wpcf7' ),
-		'sk_SK' => __( 'Slovak', 'wpcf7' ),
-		'sl_SI' => __( 'Slovene', 'wpcf7' ),
-		'es_ES' => __( 'Spanish', 'wpcf7' ),
-		'sv_SE' => __( 'Swedish', 'wpcf7' ),
-		'ta' => __( 'Tamil', 'wpcf7' ),
-		'th' => __( 'Thai', 'wpcf7' ),
-		'tl' => __( 'Tagalog', 'wpcf7' ),
-		'tr_TR' => __( 'Turkish', 'wpcf7' ),
-		'uk' => __( 'Ukrainian', 'wpcf7' ),
-		'vi' => __( 'Vietnamese', 'wpcf7' )
-=======
 		'af' => __( 'Afrikaans', 'contact-form-7' ),
 		'sq' => __( 'Albanian', 'contact-form-7' ),
 		'ar' => __( 'Arabic', 'contact-form-7' ),
@@ -294,7 +215,6 @@ function wpcf7_l10n() {
 		'tr_TR' => __( 'Turkish', 'contact-form-7' ),
 		'uk' => __( 'Ukrainian', 'contact-form-7' ),
 		'vi' => __( 'Vietnamese', 'contact-form-7' )
->>>>>>> 024dc7f66cdb347271adf7cac115b3578f3538eb
 	);
 
 	return $l10n;

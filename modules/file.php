@@ -282,11 +282,7 @@ function wpcf7_file_display_warning_message() {
 	wpcf7_init_uploads();
 
 	if ( ! is_dir( $uploads_dir ) || ! wp_is_writable( $uploads_dir ) ) {
-<<<<<<< HEAD
-		$message = sprintf( __( 'This contact form contains file uploading fields, but the temporary folder for the files (%s) does not exist or is not writable. You can create the folder or change its permission manually.', 'wpcf7' ), $uploads_dir );
-=======
 		$message = sprintf( __( 'This contact form contains file uploading fields, but the temporary folder for the files (%s) does not exist or is not writable. You can create the folder or change its permission manually.', 'contact-form-7' ), $uploads_dir );
->>>>>>> 024dc7f66cdb347271adf7cac115b3578f3538eb
 
 		echo '<div class="error"><p><strong>' . esc_html( $message ) . '</strong></p></div>';
 	}

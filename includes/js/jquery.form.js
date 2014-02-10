@@ -1,10 +1,6 @@
 /*!
  * jQuery Form Plugin
-<<<<<<< HEAD
- * version: 3.44.0-2013.09.15
-=======
  * version: 3.48.0-2013.12.28
->>>>>>> 024dc7f66cdb347271adf7cac115b3578f3538eb
  * Requires jQuery v1.5 or later
  * Copyright (c) 2013 M. Alsup
  * Examples and documentation at: http://malsup.com/jquery/form/
@@ -580,20 +576,13 @@ $.fn.ajaxSubmit = function(options) {
                 if (!s.iframeTarget) {
                     // add iframe to doc and submit the form
                     $io.appendTo('body');
-<<<<<<< HEAD
-=======
                 }
                 if (io.attachEvent) {
                     io.attachEvent('onload', cb);
                 }
                 else {
                     io.addEventListener('load', cb, false);
->>>>>>> 024dc7f66cdb347271adf7cac115b3578f3538eb
                 }
-                if (io.attachEvent)
-                    io.attachEvent('onload', cb);
-                else
-                    io.addEventListener('load', cb, false);
                 setTimeout(checkState,15);
 
                 try {
@@ -792,15 +781,10 @@ $.fn.ajaxSubmit = function(options) {
             setTimeout(function() {
                 if (!s.iframeTarget) {
                     $io.remove();
-<<<<<<< HEAD
-                else  //adding else to clean up existing iframe response.
-                    $io.attr('src', s.iframeSrc);
-=======
                 }
                 else { //adding else to clean up existing iframe response.
                     $io.attr('src', s.iframeSrc);
                 }
->>>>>>> 024dc7f66cdb347271adf7cac115b3578f3538eb
                 xhr.responseXML = null;
             }, 100);
         }
@@ -1290,9 +1274,5 @@ function log() {
     }
 }
 
-<<<<<<< HEAD
-})( (typeof(jQuery) != 'undefined') ? jQuery : window.Zepto );
-=======
 }));
 
->>>>>>> 024dc7f66cdb347271adf7cac115b3578f3538eb

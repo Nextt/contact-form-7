@@ -733,9 +733,6 @@ class WPCF7_ContactForm {
 			else
 				$submitted = $this->posted_data[$tagname];
 
-<<<<<<< HEAD
-			$replaced = wpcf7_flat_join( $submitted );
-=======
 			$replaced = $submitted;
 
 			if ( ! empty( $format ) ) {
@@ -743,7 +740,6 @@ class WPCF7_ContactForm {
 			}
 
 			$replaced = wpcf7_flat_join( $replaced );
->>>>>>> 024dc7f66cdb347271adf7cac115b3578f3538eb
 
 			if ( $html ) {
 				$replaced = esc_html( $replaced );
@@ -764,9 +760,6 @@ class WPCF7_ContactForm {
 		return $tag;
 	}
 
-<<<<<<< HEAD
-	function mail_attachments( $template ) {
-=======
 	public function format( $original, $format ) {
 		$original = (array) $original;
 
@@ -780,7 +773,6 @@ class WPCF7_ContactForm {
 	}
 
 	public function mail_attachments( $template ) {
->>>>>>> 024dc7f66cdb347271adf7cac115b3578f3538eb
 		$attachments = array();
 
 		foreach ( (array) $this->uploaded_files as $name => $path ) {
@@ -969,46 +961,7 @@ function wpcf7_get_contact_form_by_title( $title ) {
 }
 
 function wpcf7_get_contact_form_default_pack( $args = '' ) {
-<<<<<<< HEAD
-	global $l10n;
-
-	$defaults = array( 'locale' => null, 'title' => '' );
-	$args = wp_parse_args( $args, $defaults );
-
-	$locale = $args['locale'];
-	$title = $args['title'];
-
-	if ( $locale && $locale != get_locale() ) {
-		$mo_orig = $l10n['wpcf7'];
-		unset( $l10n['wpcf7'] );
-
-		if ( 'en_US' != $locale ) {
-			$mofile = wpcf7_plugin_path( 'languages/wpcf7-' . $locale . '.mo' );
-			if ( ! load_textdomain( 'wpcf7', $mofile ) ) {
-				$l10n['wpcf7'] = $mo_orig;
-				unset( $mo_orig );
-			}
-		}
-	}
-
-	$contact_form = new WPCF7_ContactForm();
-	$contact_form->initial = true;
-	$contact_form->title = ( $title ? $title : __( 'Untitled', 'wpcf7' ) );
-	$contact_form->locale = ( $locale ? $locale : get_locale() );
-
-	$props = $contact_form->get_properties();
-
-	foreach ( $props as $prop => $value )
-		$contact_form->{$prop} = wpcf7_get_default_template( $prop );
-
-	if ( isset( $mo_orig ) )
-		$l10n['wpcf7'] = $mo_orig;
-
-	$contact_form = apply_filters_ref_array( 'wpcf7_contact_form_default_pack',
-		array( &$contact_form, $args ) );
-=======
 	$contact_form = WPCF7_ContactForm::generate_default_package( $args );
->>>>>>> 024dc7f66cdb347271adf7cac115b3578f3538eb
 
 	return $contact_form;
 }
